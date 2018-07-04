@@ -1,4 +1,26 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
 body {
   margin: 0;
-  padding: 30px;
-  font-family: sans-serif; }
+  font-family: 'Roboto', sans-serif; }
+  body .hero {
+    padding: 12vw 5vw 10vw !important;
+    margin-bottom: 2vw !important;
+    background-color: teal;
+    background-image: url("/assets/images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important; }
+    body .hero h1, body .hero h2, body .hero h3, body .hero h4, body .hero h5, body .hero p {
+      color: #fff !important; }
+  body button {
+    -webkit-appearance: none;
+    padding: 12px 20px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+    border: none !important;
+    color: #404040; }
